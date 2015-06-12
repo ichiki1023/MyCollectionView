@@ -13,6 +13,8 @@
 		D2EEE7521B2AA1A100BC871B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2EEE7511B2AA1A100BC871B /* Images.xcassets */; };
 		D2EEE7551B2AA1A100BC871B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D2EEE7531B2AA1A100BC871B /* LaunchScreen.xib */; };
 		D2EEE7611B2AA1A200BC871B /* MyCollectionViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2EEE7601B2AA1A200BC871B /* MyCollectionViewTests.swift */; };
+		D2EEE76B1B2AA24000BC871B /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2EEE76A1B2AA24000BC871B /* CustomCell.swift */; };
+		D2EEE76D1B2AB1F700BC871B /* cloth.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D2EEE76C1B2AB1F700BC871B /* cloth.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		D2EEE75A1B2AA1A200BC871B /* MyCollectionViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyCollectionViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2EEE75F1B2AA1A200BC871B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D2EEE7601B2AA1A200BC871B /* MyCollectionViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCollectionViewTests.swift; sourceTree = "<group>"; };
+		D2EEE76A1B2AA24000BC871B /* CustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
+		D2EEE76C1B2AB1F700BC871B /* cloth.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cloth.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +84,8 @@
 				D2EEE74A1B2AA1A100BC871B /* AppDelegate.swift */,
 				D2EEE74C1B2AA1A100BC871B /* ViewController.swift */,
 				D2EEE74E1B2AA1A100BC871B /* Main.storyboard */,
+				D2EEE76A1B2AA24000BC871B /* CustomCell.swift */,
+				D2EEE76C1B2AB1F700BC871B /* cloth.jpg */,
 				D2EEE7511B2AA1A100BC871B /* Images.xcassets */,
 				D2EEE7531B2AA1A100BC871B /* LaunchScreen.xib */,
 				D2EEE7481B2AA1A100BC871B /* Supporting Files */,
@@ -194,6 +200,7 @@
 			files = (
 				D2EEE7501B2AA1A100BC871B /* Main.storyboard in Resources */,
 				D2EEE7551B2AA1A100BC871B /* LaunchScreen.xib in Resources */,
+				D2EEE76D1B2AB1F700BC871B /* cloth.jpg in Resources */,
 				D2EEE7521B2AA1A100BC871B /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -213,6 +220,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D2EEE74D1B2AA1A100BC871B /* ViewController.swift in Sources */,
+				D2EEE76B1B2AA24000BC871B /* CustomCell.swift in Sources */,
 				D2EEE74B1B2AA1A100BC871B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
