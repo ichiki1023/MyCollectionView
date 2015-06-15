@@ -17,13 +17,13 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="jh4-wA-qcA">
-                                <rect key="frame" x="0.0" y="500" width="600" height="100"/>
+                                <rect key="frame" x="0.0" y="331" width="600" height="269"/>
                                 <color key="backgroundColor" red="0.93725490196078431" green="0.93725490196078431" blue="0.95686274509803926" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="100" id="AgF-bo-0LB"/>
+                                    <constraint firstAttribute="height" constant="269" id="AgF-bo-0LB"/>
                                 </constraints>
-                                <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="OuT-Tr-zZD">
-                                    <size key="itemSize" width="70" height="75"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="rKy-mS-Skc">
+                                    <size key="itemSize" width="50" height="50"/>
                                     <size key="headerReferenceSize" width="0.0" height="0.0"/>
                                     <size key="footerReferenceSize" width="0.0" height="0.0"/>
                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
@@ -33,11 +33,11 @@
                                         <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
-                                            <rect key="frame" x="0.0" y="0.0" width="70" height="75"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="125" height="150"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="u5U-MD-zR1">
-                                                    <rect key="frame" x="0.0" y="0.0" width="70" height="75"/>
+                                                    <rect key="frame" x="0.0" y="0.0" width="125" height="150"/>
                                                 </imageView>
                                             </subviews>
                                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
@@ -48,6 +48,7 @@
                                             <constraint firstAttribute="trailing" secondItem="u5U-MD-zR1" secondAttribute="trailing" id="itK-P1-l8d"/>
                                             <constraint firstItem="u5U-MD-zR1" firstAttribute="top" secondItem="gia-tv-KoX" secondAttribute="top" id="n5o-y7-TmS"/>
                                         </constraints>
+                                        <size key="customSize" width="125" height="150"/>
                                         <connections>
                                             <outlet property="cloth_image" destination="u5U-MD-zR1" id="bID-ZT-Qet"/>
                                         </connections>
